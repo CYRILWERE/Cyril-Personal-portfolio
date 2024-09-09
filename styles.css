@@ -1,0 +1,20 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+</style>
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: "Poppins", sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+p {
+    color: rgb(85, 85, 85);
+}
+/*transition*/
+a, .btn {
+    transition: all 300ml ease;
+}
