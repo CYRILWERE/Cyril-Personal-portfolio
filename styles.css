@@ -1,6 +1,6 @@
-<style>
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
-</style>
+
 * {
     padding: 0;
     margin: 0;
@@ -17,4 +17,51 @@ p {
 /*transition*/
 a, .btn {
     transition: all 300ml ease;
+}
+/*desktop nav*/
+nav, .nav-links{
+    display: flex;
+}
+nav {
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+}
+.nav-links{
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.5rem;
+}
+a {
+    color: gold;
+    text-decoration: none;
+    text-decoration-color: black;
+}
+a:hover {
+    color: grey;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: rgb(181, 181, 181);
+}
+.logo {
+    font-size: 2rem;
+}
+.logo:hover{
+cursor: default;
+}
+/*hamburger-menu*/
+.hamburger-nav {
+    display: none;
+}
+#hamburger-menu {
+    position: relative;
+    display: inline-block;
+}
+.hamburger-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 24px;
+    width: 30px;
+    cursor: pointer;
 }
